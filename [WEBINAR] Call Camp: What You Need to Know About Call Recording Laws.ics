@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.13.6//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20181114T140000
+UID:6q6btil3t9te7jlsk5c3rcg9ga@google.com
+DTSTAMP:20181107T195417Z
+LOCATION:https://www.gotomeeting.com/webinar/join-webinar
+DESCRIPTION:<b>Webinar Title:</b> Call Camp: What You Need to Know About
+  Call Recording Laws<br><b>Date:</b> November 14th at 1PM EST | 1 Hour<b
+ r><b>Webinar Link:</b> https://www.gotomeeting.com/webinar/join-webinar<
+ br><b>Dial-In:</b> +1 (415) 930-5321 <br><b>Access Code</b>: 778-887-558
+ <br><b>Webinar ID:</b> 277-139-699<br><br>In this value-packed session w
+ ith Steve Richard and Truly CEO Erol Toker\, you will learn:<br><br>1. W
+ hat call recording laws actually mean<br><br>2. How to obtain consent to
+  record your calls<br><br>3. Ways to coach one-sided call recordings <br
+ ><br>As always\, we'll be breaking down real calls from real reps.
+STATUS:CONFIRMED
+SEQUENCE:2
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:[WEBINAR] Call Camp: What You Need to Know About Call Recording 
+ Laws
+DTSTART;TZID=America/New_York:20181114T130000
+CREATED:20181107T195411Z
+LAST-MODIFIED:20181107T195417Z
+BEGIN:VALARM
+X-WR-ALARMUID:00FC97AF-519E-43D6-B90E-1BD90FEACB47
+UID:00FC97AF-519E-43D6-B90E-1BD90FEACB47
+TRIGGER:-PT5M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
